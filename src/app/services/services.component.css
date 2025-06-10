@@ -1,0 +1,40 @@
+.imgfolder2{
+  width: 370px;
+  height: 300px;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 4px;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+  margin: 15px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.image_folder2:hover{
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+}
+
+.image_folders{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 15px 0;
+}
+.img1 {
+  background-image: url('../../assets/360_F_1072706852_nPT8lC6tPqgYjEPu2EpDgcKmhflIpglw.png');
+}
+
+.img2 {
+  background-image: url('../../assets/360_F_621684156_GHCg1koda7y1FKwCZ1WsuwIxk27Sezuh.png');
+}
+
+.img3 {
+  background-image: url('../../assets/pexels-brett-sayles-1793503.png');
+}
+
+.text-position h4{
+  position: absolute;
+  bottom: 10px;
+}

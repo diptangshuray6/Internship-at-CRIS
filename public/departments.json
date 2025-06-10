@@ -1,0 +1,54 @@
+{
+  "Passenger": [
+    {
+      "id": "1",
+      "name": "prs",
+      "edit": true,
+      "Introduction": "To provide Railway tickets through convenient locations,Railway reservation tickets for all classes are being sold at selected Post Offices in association with the Ministry Of Railways(MOR).The service is being provided in those areas where there is no Rail head/Railway counters.The service is presently made available at 333 Post Offices across India specially in rural and semi rural areas.​",
+      "Scope_Of_Work": "PRS PRS is the backbone of Indian Railways' ticketing system, handling millions of reservations daily. It ensures efficient ticket booking and passenger management across all railway zones.",
+      "Future_Enhancements": "The Passenger Reservation System (PRS) is an online computerized system used by Indian Railways for booking, canceling, and managing train reservations. It enables passengers to check seat availability, book tickets, and track their Passenger Name Record (PNR) status."
+    },
+    {
+      "id": "2",
+      "name": "uts",
+      "edit": false,
+      "Introduction": "The passenger can book ticket through the mobile app. On booking of ticket, he/she will get Booking ID along with other ticket details. The booking details will also be available in booking history. The booking ID will also be conveyed through an SMS.The passenger can book ticket from anywhere. On successful booking of ticket, the passenger will get Booking ID along with other ticket details as SMS/Notification. The passenger should go to the source station and take print out from the ATVM, CoTVM, OCR machines using the booking ID. The passenger can also approach UTS booking counter to take ticket printout.",
+      "Scope_Of_Work": "Indian Railways did not have any structured mechanism for resolvingdelays on the part of CRIS in acquisition of hardware and peripheral equipments. The decision of Indian Railways to procure dot matrix printers for initial phases of implementation of UTS at differentlocations despite knowing its vulnerability to manipulation rendered the system prone to misuse and frauds.",
+      "Future_Enhancements": "This paper addresses the critical need to extend access to the Indian Railway's Unreserved Ticketing System (UTS) app to leading travel tech companies. Inter alia,it also highlights the positive impact of the IRCTC’s decision to extend the reserved ticketing system booking to such companies and emphasises the potential benefits in terms of customer ease, revenue contribution, and platform optimisation."
+    },
+    {
+      "id": "3",
+      "name": "nget",
+      "edit": true,
+      "Introduction": "The Next Generation E-Ticketing System (NGET) is an advanced digital platform introduced by Indian Railways to improve and enhance the online ticket booking experience. Developed by the Centre for Railway Information Systems (CRIS), NGET was designed to address the increasing demand for online railway ticket reservations and overcome the limitations of the previous IRCTC ticketing system. The system supports a large volume of concurrent users and enhances the speed, security, and reliability of e-ticket booking services.",
+      "Scope_Of_Work": "The scope of work for the NGET system encompasses various technical and functional aspects aimed at modernizing and optimizing the ticket booking process. These include:High Traffic Management: The system can handle over 20,000 tickets per minute, significantly improving booking efficiency.Scalability: Designed to accommodate future growth in passenger demand, ensuring smooth operations even during peak hours.User-Friendly Interface: Improved design with a seamless booking experience across desktops and mobile devices.",
+      "Future_Enhancements": "To further improve efficiency and customer experience, Indian Railways plans to introduce several enhancements to the Next Generation E-Ticketing System:Artificial Intelligence (AI) & Machine Learning (ML): AI-driven chatbots for customer support, predictive analytics for demand forecasting, and automated alerts for ticket availability.Voice-Enabled Booking: Enabling ticket reservations through voice commands integrated with AI-based assistants.Personalized Travel Recommendations: Implementing data-driven insights to suggest travel options based on user preferences."
+    }
+  ],
+  "Operational": [
+    {
+      "id": "1",
+      "name": "FOIS",
+      "edit": false,
+      "Introduction": "The Freight Operations Information System (FOIS) is an integrated software system used by Indian Railways to manage freight transportation efficiently. It serves as a real-time tracking, monitoring, and management system for freight operations, enabling railway authorities and customers to access accurate and up-to-date information on freight movement. FOIS helps in optimizing wagon utilization, reducing transit time, and enhancing overall operational efficiency.",
+      "Scope_Of_Work": "FOIS is used across multiple areas in Indian Railways to ensure smooth, transparent, and efficient freight operations. The key areas covered under its scope include:Real-time Freight Tracking: Allows customers and railway officials to monitor cargo movement using GPS and RFID technology.Wagon & Rake Management: Ensures optimal use of wagons by scheduling and allocating resources efficiently.Billing and Revenue Management: Automates the freight invoicing process, reducing manual errors and delays.",
+      "Future_Enhancements": "To further improve the efficiency and capabilities of FOIS, several enhancements areplanned:AI & Machine Learning Integration: Predictive analytics for better demand forecasting and resourceplanning.IoT & Automation: Advanced sensors for real-time tracking of cargo conditions (temperature, pressure, etc.).Blockchain for Secure Transactions: Implementing blockchain technology to ensure transparency and security in freight billing and payments."
+    },
+    {
+      "id": "2",
+      "name": "COA",
+      "edit": false,
+      "Introduction": "The Control Office Application (COA) is a vital system used in Indian Railways to manage and monitor train operations efficiently. It acts as a central hub for real-time train tracking, scheduling, and coordination across various railway zones and divisions. COA helps in streamlining the movement of trains, ensuring better communication between different control offices, and enhancing operational efficiency. By providing live data on train positions, delays, and route optimization, it plays a crucial role in improving punctuality and overall railway performance.",
+      "Scope_Of_Work": "The COA system is designed to facilitate seamless coordination among various railway departments. Its key functionalities include:Real-Time Train Tracking: Monitors the exact location and movement of trains across the railway network.Train Scheduling & Management: Assists in scheduling trains, adjusting routes, and managing train priorities.Data Integration with Other Systems: Works in conjunction with other railway applications like TMS (Train Management System) and NTES (National Train Enquiry System) to provide accurate train information.",
+      "Future_Enhancements": "To further improve the efficiency and reliability of the COA system, the following enhancements can be considered:AI and Machine Learning Integration: Predictive analytics for train delays and route optimization using AI-powered models.Cloud-Based Infrastructure: Migration to cloud computing for better scalability, faster data processing, and improved security.Enhanced Mobile Applications: Development of mobile-friendly versions for railway staff to access real-time train data on the go.Blockchain for Data Security: Implementing blockchain technology to ensure tamper-proof train operation records."
+    },
+    {
+      "id": "3",
+      "name": "cms",
+      "edit": false,
+      "Introduction": "The Control Office Application (COA) is a vital system used in Indian Railways to manage and monitor train operations efficiently. It acts as a central hub for real-time train tracking, scheduling, and coordination across various railway zones and divisions. COA helps in streamlining the movement of trains, ensuring better communication between different control offices, and enhancing operational efficiency. By providing live data on train positions, delays, and route optimization, it plays a crucial role in improving punctuality and overall railway performance.The Crew Management System (CMS) in Indian Railways is a digital solution designed to manage and monitor railway crew members, including loco pilots, assistant loco pilots, and guards. It plays a crucial role in ensuring the efficient allocation, scheduling, and tracking of crew members to optimize railway operations. CMS is developed to replace traditional manual methods with automated, transparent, and real-time data processing systems. The system improves crew productivity, reduces operational delays, and ensures adherence to safety regulations.",
+      "Scope_Of_Work": "The Crew Management System encompasses various functionalities aimed at enhancing railway operations. The key areas of work include:Crew Rostering and Scheduling: Automates duty assignment based on crew availability, work hours, and operational requirements.Real-time Tracking: Monitors crew movement, duty hours, and rest periods to ensure compliance with safety norms.Crew Duty Management: Manages duty allocation, shift changes, and workload distribution.Leave and Attendance Management: Facilitates online leave applications and attendance tracking.",
+      "Future_Enhancements": "To further improve efficiency and adaptability, Indian Railways plans to enhance the CMS with the following advancements:Integration with AI and Machine Learning: Predictive analytics for better crew allocation and workload optimization.Mobile Application Development: Providing mobile access for crew members to check schedules, update status, and apply for leave.IoT-enabled Crew Monitoring: Integration with biometric devices and wearables for real-time health monitoring of crew members.Automated Communication System: Implementing chatbots and automated notifications for crew updates and duty alerts."
+    }
+  ]
+}

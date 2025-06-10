@@ -1,0 +1,55 @@
+<div class="edit-details" *ngIf="!editMode">
+  <h3>{{ data.name }}</h3>
+  <h5>Introduction</h5>
+  <div class="image" *ngIf="data.imageUrl!==''">
+    <img [src]="data.imageUrl" alt="Image"/>
+  </div>
+  <p>{{ data.Introduction }}</p>
+  <h5>Scope Of Work</h5>
+  <p>{{ data.Scope_Of_Work }}</p>
+  <h5>Future Enhancements</h5>
+  <p>{{ data.Future_Enhancements }}</p>
+  <button class="btn btn-primary" (click)="toggle()">Edit</button>
+  <button class="btn btn-primary" (click)="download()">Download PDF</button>
+</div>
+
+
+<div *ngIf="editMode">
+  <h5>Image Url</h5>
+  <ckeditor
+    *ngIf="Editor && config"
+    [(ngModel)]="data.imageUrl"
+    [editor]="Editor"
+    [config]="config"
+    (ready)="onReady($event)"
+  ></ckeditor>
+
+  <h5>Introduction</h5>
+  <ckeditor
+    *ngIf="Editor && config"
+    [(ngModel)]="data.Introduction"
+    [editor]="Editor"
+    [config]="config"
+    (ready)="onReady($event)"
+  ></ckeditor>
+
+  <h5>Scope of Work</h5>
+  <ckeditor
+    *ngIf="Editor && config"
+    [(ngModel)]="data.Scope_Of_Work"
+    [editor]="Editor"
+    [config]="config"
+    (ready)="onReady($event)"
+  ></ckeditor>
+
+  <h5>Future Enhancements</h5>
+  <ckeditor
+    *ngIf="Editor && config"
+    [(ngModel)]="data.Future_Enhancements"
+    [editor]="Editor"
+    [config]="config"
+    (ready)="onReady($event)"
+  ></ckeditor>
+
+  <button class="btn btn-primary" (click)="save()">Save</button>
+</div>

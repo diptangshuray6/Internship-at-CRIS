@@ -1,0 +1,237 @@
+
+<!-- For the navbar section -->
+<!-- Section Part -->
+<section>
+  <div class="heading-banner">
+    <h2>Indian Railways</h2>
+     <p><small>India has some of the most spectacular and unforgettable rail journeys in the world. Here you experience a simple way to find out everything you need to know in one easy place. There's no better way to enjoy India's outback, cities, coastal towns and regional areas in comfort.</small></p>
+  </div>
+</section>
+
+
+<!-- Passenger Dropdown -->
+<div class="dropdown">
+  <button mat-button (click)="fetchData('Passenger')">Passenger</button>
+    <div  class="contents"  *ngIf="showPassenger">
+      <a *ngFor="let option of dataList" (click)="navigateToDetails(option.id)">
+        <p *ngIf="option.type==='Passenger'">{{ option.name }}</p>
+      </a>
+    </div>
+  </div>
+
+
+<!-- Operational Dropdown -->
+<div class="dropdown1">
+  <button mat-button (click)="fetchData('Operational')">Operational</button>
+    <div  class="contents1"  *ngIf="showoperational">
+      <a *ngFor="let option of dataList" (click)="navigateToDetails(option.id)">
+        <p *ngIf="option.type==='Operational'">{{ option.name }}</p>
+      </a>
+    </div>
+</div>
+
+<!-- images on first row first page -->
+<section>
+ <div class="image_folders">
+   <div class="img1 imgfolder2 text-position">
+     <h4 class="text-white"></h4>
+   </div>
+   <div class="img2 imgfolder2 text-position" >
+     <h4 class="text-white"></h4>
+   </div>
+   <div class="img3 imgfolder2 text-position">
+     <h4 class="text-white"></h4>
+   </div>
+ </div>
+</section>
+
+<section class="other-services ">
+ <div class="head-infrastructure heading-banner">
+   <h2>Infrastructure</h2>
+   <h5>IRJ visits the Delta Junction site outside Birmingham where the first viaduct has been completed.</h5>
+ </div>
+ <div class="image-Infro">
+    <div class="imag1 infoImg">
+     <h4 class="text-white" id="a1">Gauge Conversions</h4>
+    </div>
+    <div class="imag2 infoImg">
+     <h4 class="text-white" id="a2">Railway Electrification</h4>
+    </div>
+    <div class="imag3 infoImg">
+     <h4 class="text-white" id="a3">Track Development</h4>
+    </div>
+ </div>
+</section>
+
+<section class="railway-news">
+ <div class="SearchS heading-banner">
+   <h2>News</h2>
+   <p>
+     Indian Railways is a state-owned enterprise that is organized as a departmental undertaking
+     of the Ministry of Railways of the Government of India and operates India's national railway system.
+     As of 2024, it manages the fourth largest national railway system by size with a track length
+     of 135,207 km (84,014 mi), running track length of 109,748 km (68,194 mi), and route length of 69,181 km (42,987 mi).
+   </p>
+ </div>
+ </section>
+
+ <section class="Railnews">
+   <div class="news-container">
+     <div class="news-image"></div>
+     <div class="news-text">
+       <h5 id="headS">Michigan State University seeks participants for railway management programme</h5>
+       <p>
+         APPLICATIONS remain open for Michigan State University’s Railway Management Certificate Programme,
+         which is aimed at individuals working in the railway industry who have the potential to become senior
+         managers within their organisations.
+       </p>
+       <p>
+         The programme consists of four week-long residential modules, covering both freight and passenger
+         operations, and is designed to provide broad experience of the diversity and complexity of today’s
+         North American railway industry.
+       </p>
+       <p>
+         The programme’s largest-ever cohort of 30 rail professionals completed the course in 2024,
+         the 19th time it has been run. MSU’s railway education programme director, Valerii Kucherenko,
+         is hoping for a similarly strong attendance for the 20th edition in 2025.
+       </p>
+     </div>
+   </div>
+
+   <div class="news-container">
+     <div class="news2-image"></div>
+     <div class="news-text">
+       <h5 id="headS">The Role of Surface Treatments in Protecting Railway Components</h5>
+       <p>
+         Through its experts and “special process” auditors, TRIGO Aerospace, Defence Rail provides inspection solutions for the various surface treatment processes implemented to protect railway components against corrosion and wear. These treatments include galvanization, powder coatings, and anodic treatments, which are essential for maintaining the integrity of parts exposed to harsh environmental conditions. Additionally, our “Painting, Coating, Anodizing, Galvanization” experts are well-versed in industry standards and those deployed by major train manufacturers
+       </p>
+       <p>
+         TRIGO Aerospace, Defence Rail offers rigorous quality control services to ensure that railway components meet the highest safety and performance standards.
+       </p>
+     </div>
+   </div>
+
+   <div class="news-container">
+     <div class="news3-image"></div>
+     <div class="news-text">
+       <h5 id="headS">The Role of Surface Treatments in Protecting Railway Components</h5>
+       <p>
+         Through its experts and “special process” auditors, TRIGO Aerospace, Defence Rail provides inspection solutions for the various surface treatment processes implemented to protect railway components against corrosion and wear. These treatments include galvanization, powder coatings, and anodic treatments, which are essential for maintaining the integrity of parts exposed to harsh environmental conditions. Additionally, our “Painting, Coating, Anodizing, Galvanization” experts are well-versed in industry standards and those deployed by major train manufacturers
+       </p>
+       <p>
+         TRIGO Aerospace, Defence Rail offers rigorous quality control services to ensure that railway components meet the highest safety and performance standards.
+       </p>
+     </div>
+   </div>
+ </section>
+
+ <!-- Footer Section of the home component -->
+ <footer>
+  <div class="maincontent">
+
+    <!-- Left Part of footer  -->
+    <div class="left box">
+      <h2>About Us</h2>
+      <div class="content">
+        <p>Indian Railways is a state-owned enterprise that is organised as a deparmental undertaking of the Ministry of Railways of the Government of India and operates India's national railway system.[a] As of 2024, it manages the fourth largest national railway system by size with a track length of 135,207 km (84,014 mi), running track length of 109,748 km (68,194 mi) and route length of 69,181 km (42,987 mi). As of August 2024, 96.59% of the broad-gauge network is electrified. With more than 1.2 million employees, it is the world's ninth-largest employer and India's second largest employer.</p>
+        <div class="social">
+          <a href="#"><mat-icon>home</mat-icon></a>
+          <a href="#"><mat-icon>train</mat-icon></a>
+          <a href="#"><mat-icon>contacts</mat-icon></a>
+          <a href="#"><mat-icon>facebook</mat-icon></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Center Part Of Footer -->
+     <div class="center box">
+      <h2>Address</h2>
+         <div class="content">
+          <div class="place">
+            <span><mat-icon>map</mat-icon></span>
+            <span>Centre For Railway Information Systems</span>
+          </div>
+          <div class="phone">
+              <span><mat-icon>contacts</mat-icon></span>
+              <span>+089-76543200</span>
+          </div>
+          <div class="email">
+            <span><mat-icon>email</mat-icon></span>
+            <span>abcexample.in</span>
+          </div>
+         </div>
+     </div>
+
+     <!-- Right box  -->
+      <div class="right box">
+        <h2>Contact Us</h2>
+        <div class="content">
+          <form action="#">
+            <div class="email">
+             <div class="text">Email* </div>
+             <input type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text">Message* </div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+
+  </div>
+
+
+
+
+ </footer>
+
+
+<!-- <select id="dropdown" (change)="navigateToDetails($event)"></select>
+<option *ngFor="let option of routeList" [value]="option">
+  {{ option.name }}
+</option> -->
+
+
+   <!-- <select id="dropdown" (change)="onSelect($event)">
+    <option value="" disabled selected>Select an option</option>
+    <option *ngFor="let route of routeList" [value]="route.name">
+      {{route.name}}
+    </option>
+  </select>
+
+  <select id="dropdown" [(ngModel)]="selectedPage">
+    <option *ngFor="let option of routeList">
+       [value]="option.path"
+       {{ option.name }}
+      {{option.Introduction}}
+      {{option.Scope_Of_Work}}
+      {{option.Future_Enhancements}}
+     </option>
+  </select> -->
+
+   <!-- <select id="dropdown">
+
+      <option value="" disabled selected>Select an option</option>
+      <option *ngFor="let option of routeList">
+     @if (option.name) {
+      {{ option.name }}
+      {{option.Introduction}}
+      {{option.Scope_Of_Work}}
+      {{option.Future_Enhancements}}
+     }
+
+      </option> -->
+
+  <!-- </select> -->
+
+
+
+
+
+

@@ -1,0 +1,312 @@
+
+/* For nav bar */
+.searchelem{
+  position: relative;
+  left:100px;
+  background: #f1f3f4;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar{
+  background-color: rgb(211, 211, 244);
+}
+.toolbar{
+  background-color: rgb(211, 211, 244);
+}
+
+/* For banner and buttons*/
+.heading-banner{
+  padding: 10px;
+  border: 1px solid #e5e9e1;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.dropdown{
+  display: inline-block;
+  left:600px;
+  top:10px;
+}
+.dropdown button{
+  padding: 10px;
+  background-color: rgb(236, 64, 216);
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown a{
+   display: block;
+   text-decoration: none;
+   padding: 10px 15px;
+   color: black;
+   padding:10px 15px;
+}
+
+.dropdown .contents{
+  display: none;
+  position: absolute;
+  background-color:rgb(205, 203, 201);
+  min-width: 100px;
+  box-shadow:2px 2px 5px;
+}
+
+.dropdown:hover .contents{
+  display:block ;
+}
+
+.dropdown:hover button{
+  background-color: bisque;
+}
+
+.dropdown a :hover{
+background-color: rgb(207, 207, 198);
+}
+/*  Button 2  */
+.dropdown1{
+  left:370px;
+  top:10px;
+  display: inline-block;
+  position: relative;
+
+}
+.dropdown1 button{
+  padding: 10px;
+  background-color: rgb(236, 64, 216);
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown1 a{
+   display: block;
+   text-decoration: none;
+   padding: 10px 15px;
+   color: black;
+   padding:10px 15px;
+}
+
+.dropdown1 .contents1{
+  display: none;
+  position: absolute;
+  background-color:rgb(205, 203, 201);
+  min-width: 100px;
+  box-shadow:2px 2px 5px;
+}
+
+.dropdown1:hover .contents1{
+  display:block ;
+}
+
+.dropdown1:hover button{
+  background-color: bisque;
+}
+
+.dropdown1 a :hover{
+background-color: rgb(207, 207, 198);
+}
+
+/*     Image section for Homeall Component    */
+.imgfolder2{
+  width: 370px;
+  height: 300px;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 4px;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+  margin: 15px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.image_folder2:hover{
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+}
+
+.image_folders{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 20px 0;
+}
+.img1 {
+  background-image: url('../../assets/360_F_1072706852_nPT8lC6tPqgYjEPu2EpDgcKmhflIpglw.png');
+}
+
+.img2 {
+  background-image: url('../../assets/360_F_621684156_GHCg1koda7y1FKwCZ1WsuwIxk27Sezuh.png');
+}
+
+.img3 {
+  background-image: url('../../assets/pexels-brett-sayles-1793503.png');
+}
+
+.text-position h4{
+  position: absolute;
+  bottom: 10px;
+}
+
+/* For styling the Infrastructure section */
+
+.image-Infro{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 20px 0;
+}
+.infoImg{
+  width: 370px;
+  height: 300px;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 4px;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+  margin: 15px 0;
+  background-size: cover;
+  background-position: center;
+}
+.image-Infro #a1 #a2 #a3{
+  /* position: absolute;
+  bottom: -10px; */
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  border-radius: 4px;
+  position: relative;
+  bottom:60px;
+}
+
+.infoImg:hover{
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+}
+.imag1 {
+  background-image: url('../../assets/infrastructure/images.png');
+}
+
+.imag2 {
+  background-image: url('../../assets/infrastructure/download.png');
+}
+
+.imag3 {
+  background-image: url('../../assets/infrastructure/infimages.png');
+}
+
+/* Railway news */
+.news-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.news-image {
+  width: 40%; /* Adjust width as needed */
+  height: 300px; /* Set fixed height */
+  background-image: url('../../assets/News/news1.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+
+.news-text {
+  width: 60%;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+#headS{
+  transition: all 0.3s ease-in-out;
+}
+#headS:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .news-container {
+      flex-direction: column;
+  }
+
+  .news-image, .news-text {
+      width: 100%;
+  }
+}
+
+.news2-image {
+  width: 40%; /* Adjust width as needed */
+  height: 300px; /* Set fixed height */
+  background-image: url('../../assets/News/70450_railjetstadlerkissemuphotooebb1_799518.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.news3-image{
+  width: 40%; /* Adjust width as needed */
+  height: 300px; /* Set fixed height */
+  background-image: url('../../assets/News/RNews.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+
+/* Footer  components of homeall component */
+footer{
+  width: 100%;
+  background: #2c2727;
+  color: aliceblue;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.maincontent{
+  display: flex;
+  justify-content: space-between;
+}
+.maincontent .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box .content{
+  margin: 20px 0 0 0;
+}
+
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding:0 10px;
+}
+.left .content .p{
+  text-align: justify;
+}
+
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+   background: #f12020;
+}
+
+
+
+

@@ -1,0 +1,13 @@
+.searchelem{
+  position: relative;
+  left:100px;
+  background: #f1f3f4;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar{
+  background-color: rgb(211, 211, 244);
+}
+.toolbar{
+  background-color: rgb(211, 211, 244);
+}
